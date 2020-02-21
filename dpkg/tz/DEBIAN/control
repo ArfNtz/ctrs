@@ -1,0 +1,9 @@
+Package: tz
+Version: 0.1-1
+Section: base
+Priority: optional
+Architecture: i386
+Depends: 
+Maintainer: ArfNtz <arfntz@gmail.com>
+Description: tz
+ Cipher and store a text file on a remote server

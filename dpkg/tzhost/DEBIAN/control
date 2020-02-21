@@ -1,0 +1,9 @@
+Package: tzhost
+Version: 0.1-1
+Section: base
+Priority: optional
+Architecture: i386
+Depends: 
+Maintainer: ArfNtz <arfntz@gmail.com>
+Description: tzhost
+ Recieve and store a text file from a remote client

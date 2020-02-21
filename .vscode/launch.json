@@ -1,0 +1,33 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb-mi",
+            "request": "launch",
+            "name": "lldb tz",
+            "target": "${workspaceFolder}/.build/debug/tz",
+            "arguments": "textFile https://localhost:8888",
+            "preLaunchTask": "swift-build",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb-mi",
+            "request": "launch",
+            "name": "lldb tests tz",
+            "target": "${workspaceFolder}/.build/debug/tzPackageTests.xctest",
+            "arguments": "",
+            "preLaunchTask": "swift-build-tests",
+            "cwd": "${workspaceFolder}",
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "debug tz",
+            "program": "${workspaceFolder}/.build/debug/tz",
+            "args": ["textFile","https://localhost:8888"],
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "swift-build"
+        },
+            
+    ]
+}
