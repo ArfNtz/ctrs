@@ -14,7 +14,7 @@
 //===----------------------------------------------------------------------===//
 
 import Foundation
-import AES256CBC
+import cipher
 import post
 
 func send(filename: String, remoteUrl: String) {

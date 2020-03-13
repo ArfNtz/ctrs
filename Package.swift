@@ -11,7 +11,7 @@ let package = Package(
         .executable(name: "tzhost", targets: ["tzhost"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/ArfNtz/AES256CBC.git", .branch("master")),
+        .package(url: "https://github.com/ArfNtz/cipher.git", .branch("master")),
         .package(url: "https://github.com/ArfNtz/post.git", .branch("master")),
         .package(url: "https://github.com/ArfNtz/listen.git", .branch("master")),
         .package(url: "https://github.com/ArfNtz/store.git", .branch("master")),
@@ -19,7 +19,7 @@ let package = Package(
     targets: [
         .target(
             name: "tz",
-            dependencies: ["AES256CBC","post"]),
+            dependencies: ["cipher","post"]),
         .target(
             name: "tzhost",
             dependencies: ["listen","store"]),
