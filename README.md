@@ -11,7 +11,7 @@ Welcome to **ctrs**
 
 **Motivation**
 
-- if confidential data storage is about trust, then we'd better know the source code ;)
+- Confidential data storage is about trust, knowing the source code makes it easy ;)
 
 **Features**
 - open source dependencies and development environment
