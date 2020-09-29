@@ -1,6 +1,6 @@
 Welcome to **ctrs**
 
-**ctrs** means 'ciphered text remote storage'. It is composed of two command line tools. The first is `tz`, to cipher and send a text file, or retrieve and decipher it. The second is `tzhost`, to receive and store ciphered text files, or read and send them back. 
+**ctrs** stands for 'ciphered text remote storage'. It is composed of two command line tools. The first is `tz`, to cipher and send a text file, or retrieve and decipher it. The second is `tzhost`, to receive and store ciphered text files, or read and send them back. 
 
 <p>
 <a href="https://swift.org" target="_blank"><img src="https://img.shields.io/badge/Language-Swift%205-orange.svg" alt="Language Swift 5"></a>
